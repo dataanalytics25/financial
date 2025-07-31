@@ -27,5 +27,6 @@ returns_data = stock_data.pct_change().dropna()
 # Visualizations 
 st.subheader("Stock Prices") 
 st.line_chart(stock_data) 
+
 st.subheader("Stock Returns") 
 st.line_chart(returns_data) 
